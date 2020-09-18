@@ -3,7 +3,7 @@ package hu.frt;
 public class InstitutionData {
     private String type;
     private String name;
-    private String OMIdentificationNumber;
+    private String omIdentificationNumber;
     private String status;
     private int numberOfTaskLocation;
     private String taxNumber;
@@ -24,12 +24,12 @@ public class InstitutionData {
         this.name = name;
     }
 
-    public String getOMIdentificationNumber() {
-        return OMIdentificationNumber;
+    public String getOmIdentificationNumber() {
+        return omIdentificationNumber;
     }
 
-    public void setOMIdentificationNumber(String OMIdentificationNumber) {
-        this.OMIdentificationNumber = OMIdentificationNumber;
+    public void setOmIdentificationNumber(String omIdentificationNumber) {
+        this.omIdentificationNumber = omIdentificationNumber;
     }
 
     public String getStatus() {
